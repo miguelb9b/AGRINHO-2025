@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conexão Campo Cidade - O Jogo!</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+
+    <style>
+      /*
+        Estilos CSS básicos para garantir que o canvas (onde seu jogo p5.js aparece)
+        fique bem centralizado na página e sem margens indesejadas.
+      */
+      body {
+        margin: 0; /* Remove a margem padrão do navegador */
+        display: flex; /* Usa flexbox para fácil centralização */
+        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        align-items: center; /* Centraliza o conteúdo verticalmente */
+        min-height: 100vh; /* Faz com que o body ocupe 100% da altura da tela */
+        background-color: #e0f2f7; /* Um azul claro suave, lembrando o céu */
+        font-family: 'Arial', sans-serif; /* Uma fonte simples e legível */
+        overflow: hidden; /* Evita barras de rolagem se o canvas for grande */
+      }
+
+      /* Estilos para o canvas do p5.js */
+      canvas {
+        display: block; /* Remove o espaço extra abaixo do canvas que alguns navegadores adicionam */
+        border: 4px solid #4CAF50; /* Uma borda verde vibrante, remetendo ao campo */
+        border-radius: 8px; /* Cantos levemente arredondados */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar o jogo */
+      }
+
+      h1 {
+        position: absolute; /* Posição absoluta para o título */
+        top: 20px; /* Distância do topo */
+        color: #333; /* Cor do texto */
+        text-shadow: 1px 1px 2px rgba(255,255,255,0.7); /* Sombra para o texto */
+        z-index: 10; /* Garante que o título fique acima do canvas */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Festejando a Conexão Campo & Cidade!</h1>
+  </body>
+</html>
